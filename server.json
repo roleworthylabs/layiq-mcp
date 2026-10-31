@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.layiq/layiq-jobs",
+  "title": "LAYIQ Jobs",
+  "description": "Find public job listings and explore roles from LAYIQ. Read-only; no account or login needed.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.layiq.co",
+  "icons": [
+    {
+      "src": "https://www.layiq.co/brand/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.layiq.co/mcp"
+    }
+  ]
+}
