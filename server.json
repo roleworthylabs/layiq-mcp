@@ -5,11 +5,17 @@
   "description": "Find public job listings and explore roles from LAYIQ. Read-only; no account or login needed.",
   "version": "1.0.0",
   "websiteUrl": "https://www.layiq.co",
+  "repository": {
+    "url": "https://github.com/roleworthylabs/layiq-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://www.layiq.co/brand/icon-512.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "remotes": [
